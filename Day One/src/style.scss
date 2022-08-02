@@ -1,0 +1,91 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+@import url(https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap);
+// use only the available space inside the 400x400 frame
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: linear-gradient(45deg, #433ca0, #4cb1c4);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+	color:white;
+	font-family:"Roboto";
+}
+
+
+.Dash
+{
+	z-index:1;
+	position:absolute;
+	font-family: "Montserrat";
+	left:-157px;
+	top:-150.5px;
+	font-size:75px;
+	transform: rotate(45deg) scale(1.8,1);
+	filter: drop-shadow(5px 5px 5px black)
+}
+.One
+{
+	position:absolute;
+	
+	z-index:2;
+	font-family: "Montserrat";
+	left:-141px;
+	top:-211px;
+	font-size:142px;
+	transform: scale(1.3,1);
+	filter: drop-shadow(5px 5px 5px black)
+}
+.ZeroOne{
+	position:absolute;
+	z-index:1;
+	font-family: "Montserrat";
+	left:-80px;
+	top:-231px;
+	font-size:155px;
+	transform : scale(1.5,1);
+	filter: drop-shadow(5px 5px 5px black);
+}
+.ZeroTwo{
+	position:absolute;
+	font-family: "Montserrat";
+	left:55px;
+	top:-231px;
+	font-size:155px;
+	transform : scale(1.5,1);
+	filter: drop-shadow(5px 5px 5px black)
+}
+
+.Days{
+	position:absolute;
+	transform: translate(-50%,-10%);
+	font-size:38px;
+	filter: drop-shadow(5px 5px 5px black)
+}
+.Challenge
+{
+	position:absolute;
+	transform: translate(-50%,125%);
+	filter: drop-shadow(5px 5px 5px black)
+}
